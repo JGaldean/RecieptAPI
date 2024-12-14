@@ -1,5 +1,5 @@
 import unittest
-from Drink_Assignment import Food, Order
+from api.food import Food, Order
 
 class TestFood(unittest.TestCase):
     def setUp(self):
