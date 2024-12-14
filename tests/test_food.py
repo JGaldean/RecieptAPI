@@ -1,5 +1,6 @@
 import unittest
-from api.food import Food, Order
+from api.food import Food
+from api.order import Order
 
 class TestFood(unittest.TestCase):
     def setUp(self):
