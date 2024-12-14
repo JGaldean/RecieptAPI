@@ -1,5 +1,8 @@
 import unittest
-from Drink_Assignment import Drink, Order
+from api.order import Order
+from api.drink import Drink
+from api.food import Food
+from api.icestorm import IceStorm
 
 class TestOrder(unittest.TestCase):
     def setUp(self):
